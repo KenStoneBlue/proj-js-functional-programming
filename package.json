@@ -1,0 +1,23 @@
+{
+  "name": "proj-js-functional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenStoneBlue/proj-js-functional-programming.git"
+  },
+  "keywords": [],
+  "author": "Ken Stone Blue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenStoneBlue/proj-js-functional-programming/issues"
+  },
+  "homepage": "https://github.com/KenStoneBlue/proj-js-functional-programming#readme"
+}
