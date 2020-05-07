@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,10 +12,18 @@
     "url": "git+https://github.com/KenStoneBlue/proj-js-functional-programming.git"
   },
   "keywords": [],
-  "author": "Ken Stone Blue",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KenStoneBlue/proj-js-functional-programming/issues"
   },
-  "homepage": "https://github.com/KenStoneBlue/proj-js-functional-programming#readme"
+  "homepage": "https://github.com/KenStoneBlue/proj-js-functional-programming#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4"
+  },
+  "babel": {
+    "presets": [ "@babel/preset-env" ]
+  }
 }
